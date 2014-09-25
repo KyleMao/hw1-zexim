@@ -5,10 +5,6 @@
 	<groupId>edu.cmu.lti.11791.f14.hw1</groupId>
 	<artifactId>hw1-zexim</artifactId>
 	<version>0.0.2-SNAPSHOT</version>
-	<properties>
-	  <maven.javadoc.skip>true</maven.javadoc.skip>
-		<maven.javadoc.failOnError>false</maven.javadoc.failOnError>
-	</properties>
 	<repositories>
 		<repository>
 			<id>oaqa</id>
@@ -34,6 +30,11 @@
 					<source>1.6</source>
 					<target>1.6</target>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>2.8</version>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
